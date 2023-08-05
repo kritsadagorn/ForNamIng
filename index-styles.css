@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column; /* กำหนดให้เรียงองค์ประกอบใน body เป็นแนวตั้ง */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000; /* กำหนดสีพื้นหลังเป็นสีม่วงอ่อน */
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #8a2be2, #da70d6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างของข้อความ */
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column; /* กำหนดให้ปุ่มอยู่ในแนวตั้ง */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px; /* เพิ่มระยะห่างในระหว่างปุ่ม */
+    background-color: #CCCCCC;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #da70d6;
+}
+
+
